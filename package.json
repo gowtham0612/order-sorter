@@ -1,0 +1,19 @@
+{
+  "name": "order-sorter",
+  "version": "1.0.0",
+  "description": "A simple utility to sort data in ascending or descending order.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sort",
+    "order",
+    "utility"
+  ],
+  "author": "Gowtham S",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
