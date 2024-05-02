@@ -1,6 +1,6 @@
 {
   "name": "order-sorter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "order-sorter is a lightweight, efficient JavaScript utility for sorting numerical arrays. It allows users to sort data either in ascending or descending order with a simple, easy-to-use API. Designed for both developers and data scientists, this tool ensures that integrating sorting functionalities into any project is straightforward and hassle-free.",
   "main": "lib/index.js",
   "scripts": {
