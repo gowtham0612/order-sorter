@@ -1,3 +1,4 @@
+
 # order-sorter
 
 The `order-sorter` module provides a simple and efficient way to sort arrays of numerical data in ascending or descending order. It is designed to handle common sorting tasks with an easy-to-use interface.
@@ -18,11 +19,23 @@ To use `order-sorter`, import the module and call the `sortData` function with y
 const sortData = require('order-sorter');
 
 const data = [10, 2, 33, 4, 5];
-const sortedAsc = sortData(data, 'asc');
+const sortedAsc = sortData(data, { order: 'asc' });
 console.log('Sorted Ascending:', sortedAsc);
 
-const sortedDesc = sortData(data, 'desc');
+const sortedDesc = sortData(data, { order: 'desc' });
 console.log('Sorted Descending:', sortedDesc);
+
+const users = [
+    { name: "John", age: 30 },
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 22 }
+];
+const sortedUsersByName = dynamicSort(users, { key: 'age',order: "desc" });
+console.log(sortedUsersByName)
+
+const mixed =  [{ name: "John", age: 30 }]
+const sortedMixed = dynamicSort(mixed, {key: "age",order: "desc"});
+console.log(sortedMixed);
 ```
 
 ## Features
